@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D5V0F1U2LPQ
+D Low capacitance unidirectional TVS diode, 1.5App, 5.5Vrm, 6Vbk, 12Vcl_max, DFN-1006-2/0402
+K https://www.diodes.com/assets/Datasheets/D5V0F1U2LPQ.pdf
+$ENDCMP
+#
+$CMP D6V3H1U2LP
+D Unidirectional TVS diode, 30App, 6.3Vrm, 6.5-9Vbk, 12.5Vcl_max, DFN-1006-2/0402
+K https://www.diodes.com/assets/Datasheets/D6V3H1U2LP.pdf
+F https://www.diodes.com/assets/Datasheets/D6V3H1U2LP.pdf
+$ENDCMP
+#
+$CMP TPS62745DSSR
+D 300mA Ultra Low Iq step-down converter with DCS, VSEL, and input voltage switch; 3.3V-10V input; WSON-12
+K DC step-down converter
+F https://www.ti.com/lit/ds/symlink/tps62745.pdf
+$ENDCMP
+#
+#End Doc Library
