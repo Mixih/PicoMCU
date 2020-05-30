@@ -1,0 +1,6 @@
+*.bck
+*-cache
+*-cache.lib
+*.kicad_pcb-bak
+*_panelized.pro
+*.sch-bak
