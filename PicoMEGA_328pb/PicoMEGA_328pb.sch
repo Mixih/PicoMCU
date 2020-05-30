@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "PicoMEGA 328pb"
 Date "2020-05-30"
-Rev "0.1c"
+Rev "0.1d"
 Comp ""
 Comment1 "Microcontroller breakout series"
 Comment2 ""
@@ -236,11 +236,6 @@ Wire Wire Line
 	800  2700 800  2600
 Connection ~ 800  2600
 Wire Wire Line
-	1250 2250 800  2250
-Connection ~ 800  2250
-Wire Wire Line
-	800  2250 800  2600
-Wire Wire Line
 	800  2600 1250 2600
 Wire Wire Line
 	800  2700 1250 2700
@@ -277,8 +272,6 @@ Wire Wire Line
 Connection ~ 3400 950 
 Wire Wire Line
 	800  1550 2750 1550
-Wire Wire Line
-	800  1550 800  2250
 Text Label 2300 1550 0    50   ~ 0
 3V3_REG
 Wire Wire Line
@@ -1116,6 +1109,10 @@ Optional Indicator
 Wire Bus Line
 	7300 4800 8550 4800
 Connection ~ 7300 4800
+Wire Wire Line
+	800  1550 800  2600
+Wire Wire Line
+	1250 2100 1250 2250
 Wire Bus Line
 	1750 4050 1750 4600
 Wire Bus Line
@@ -1126,4 +1123,5 @@ Wire Bus Line
 	7300 2000 7300 4800
 Wire Bus Line
 	6100 1950 6100 4800
+Connection ~ 1250 2100
 $EndSCHEMATC
